@@ -1,0 +1,8 @@
+rs1:
+  instances:
+    - rs1-master
+    - rs1-replica
+  roles:
+    - app.roles.api
+    - failover-coordinator
+  all_rw: false

@@ -1,0 +1,11 @@
+cartridge-acl-server.rs1-master:
+  advertise_uri: localhost:3301
+  http_port: 8081
+
+cartridge-acl-server.rs1-replica:
+  advertise_uri: localhost:3302
+  http_port: 8082
+
+cartridge-acl-server-stateboard:
+  listen: localhost:4401
+  password: passwd
