@@ -1,0 +1,4 @@
+#!/bin/sh
+
+tarantoolctl rocks install https://raw.githubusercontent.com/moon-dragon-dev/lua-ipv4/master/rockspecs/ipv4-scm-1.rockspec
+tarantoolctl rocks install https://raw.githubusercontent.com/moon-dragon-dev/lua-ipv6/master/rockspecs/ipv6-scm-1.rockspec

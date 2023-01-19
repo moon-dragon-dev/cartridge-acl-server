@@ -30,3 +30,6 @@ test_only:
 	.rocks/bin/luacov . && grep -A999 '^Summary' tmp/luacov.report.out
 
 test: local_clean local_build deps_for_test test_only
+
+setup:
+	ansible-playbook -i ansible/inventory.ini ansible/setup-hosts.yml
